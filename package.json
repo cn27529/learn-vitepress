@@ -1,0 +1,27 @@
+{
+  "name": "learn-vitepress",
+  "version": "1.0.0",
+  "description": "Learn VitePress for static site",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cn27529/learn-vitepress.git"
+  },
+  "keywords": [
+    "vitepress"
+  ],
+  "author": "cn27529",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cn27529/learn-vitepress/issues"
+  },
+  "homepage": "https://github.com/cn27529/learn-vitepress#readme"
+}
