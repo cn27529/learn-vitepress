@@ -2,21 +2,24 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: "en-US",
-  title: "My Awesome Project",
+  lang: "zh-Hans",
+  title: "Learn VitePress Project",
   description: "A VitePress Site",
   srcDir: "./", //可以設定根目錄位置
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     logo: "/logo.png",
-    siteTitle: "My VitePress",
+    siteTitle: "Learn VitePress",
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present Learn VitePress'
+    },
     nav: [
       { text: "Home", link: "/" },
       { text: "Markdown Examples", link: "/markdown-examples" },
       { text: "API Examples", link: "/api-examples" },
       { text: "Example", link: "/example" },
-      { text: "Sub folder", link: "guide/index" },
-      { text: "Sub page", link: "guide/test-page" },
+      { text: "Sub Page", link: "guide/index" },
 
       // {
       //   text: "Dropdown Menu",
@@ -35,8 +38,7 @@ export default defineConfig({
           { text: "Markdown Examples", link: "/markdown-examples" },
           { text: "API Examples", link: "/api-examples" },
           { text: "Example", link: "/example" },
-          { text: "Sub folder", link: "guide/index" },
-          { text: "Sub page", link: "guide/test-page" },
+          { text: "Sub Page", link: "guide/index" },          
         ],
       },
     ],

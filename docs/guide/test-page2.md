@@ -1,16 +1,19 @@
 ---
-layout: doc
-title: Sub Page 1 Docs with VitePress
-lastUpdated: true
-editLink: true
-footer: false
+title: Sub Page 2 Docs with VitePress
+head:
+  - - meta
+    - name: description
+      content: hello description
+  - - meta
+    - name: keywords
+      content: super duper SEO page2
 ---
 
 # {{ $frontmatter.title }} page💙
 
 Hi there :wave: This is a demo running VitePress within your **browser tab**!
 
-![An image](/logo.png)
+![An image](/image.png)
 
 ## Powered by Vite
 
