@@ -12,7 +12,7 @@ export default defineConfig({
     siteTitle: "Learn VitePress",
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Learn VitePress'
+      copyright: 'Copyright © 2024-present for DaYi'
     },
     nav: [
       { text: "Home", link: "/" },
