@@ -11,7 +11,8 @@ hero:
   text: "品牌承諾，白玉相伴"
   tagline: 提供全人、全程、全方位之照顧服務網，乃追求實現在地老化安養、尊嚴向晚。
   image:
-    src: /白玉logo0.jpg
+    dark: /白玉logo.png
+    light: /白玉logo.png
     alt: VitePress
   actions:
     - theme: brand

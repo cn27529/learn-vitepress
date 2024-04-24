@@ -10,7 +10,7 @@ sidebar: true
 
 Hi there :wave: This is a demo running VitePress within your **browser tab**!
 
-![An image](/logo.png)
+![An image](/cat.png)
 
 ## Powered by Vite
 
