@@ -1,6 +1,6 @@
 # learn-vitepress
 Learn VitePress for static site
 
-# daying vitepress site
-vitepress dev daying
+# Run Baiyu awesome site
+npm run docs:dev
 

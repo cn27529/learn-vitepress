@@ -4,9 +4,9 @@
   "description": "Learn VitePress for static site",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "vitepress dev baiyu",
+    "docs:build": "vitepress build baiyu",
+    "docs:preview": "vitepress preview baiyu"
   },
   "devDependencies": {
     "vitepress": "^1.1.3"
