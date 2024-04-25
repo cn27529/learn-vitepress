@@ -14,7 +14,7 @@ export default defineConfig({
     },
     nav: [
       // { text: 'Home', link: '/' },
-      { text: "認識白玉", link: "/about" },
+      { text: "認識白玉", link: "/about/index" },
     ],
 
     sidebar: {
