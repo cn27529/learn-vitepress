@@ -14,23 +14,32 @@ export default defineConfig({
     },
     nav: [
       // { text: 'Home', link: '/' },
-      { text: "認識白玉", link: "/about/index" },
+      { text: "認識白玉", link: "/about" },
     ],
 
-    sidebar: {
-      // 当用户位于 `guide` 目录时，会显示此侧边栏
-      "/about/": [
-        {
-          text: "about",
-          items: [
-            { text: "認識白玉", link: "/about/index" },
-            { text: "緣起", link: "/about/doc1" },
-            { text: "簡介", link: "/about/doc2" },
-            { text: "展望", link: "/about/doc3" },
-          ],
-        },
-      ],
-    },
+    sidebar: [
+      {
+        text: 'about',
+        items: [
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Getting Started', link: '/getting-started' },         
+        ]
+      }
+    ],
+    // sidebar: {
+    //   // 当用户位于 `guide` 目录时，会显示此侧边栏
+    //   "/about/": [
+    //     {
+    //       text: "about",
+    //       items: [
+    //         { text: "認識白玉", link: "/about/index" },
+    //         { text: "緣起", link: "/about/doc1" },
+    //         { text: "簡介", link: "/about/doc2" },
+    //         { text: "展望", link: "/about/doc3" },
+    //       ],
+    //     },
+    //   ],
+    // },
 
     socialLinks: [
       { icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
