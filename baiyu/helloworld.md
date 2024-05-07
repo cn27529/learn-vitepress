@@ -30,6 +30,10 @@ The count is: {{ count }}
 }
 </style>
 
+
 <h2 id="markdown-content">My Google Maps Demo</h2>
-<!--AIzaSyCSOoxI3HwKgmOesf3_m48uxR6UgLD5WC4-->
+<!--
+https://developers.google.com/maps/documentation/embed/embedding-map?hl=zh-tw
+AIzaSyCSOoxI3HwKgmOesf3_m48uxR6UgLD5WC4
+-->
 <div id="map"></div>
