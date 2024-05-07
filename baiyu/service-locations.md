@@ -18,6 +18,45 @@ aside: left
 
 # {{ $frontmatter.title }} 💙
 
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+</script>
+
+## Markdown Content
+
+The count is: {{ count }}
+
+<button @click="count++">Increment</button>
+
+<script client src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+<style>
+    .map {
+        height: 400px;
+        width: 100%;
+    }
+</style>
+
+<script>
+        function initMap() {
+            const mapCenter = { lat: 23.956247, lng: 120.575201 }; // 這裡使用員林市至平街 50 巷 39 號的經緯度
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: mapCenter,
+            });
+            const marker = new google.maps.Marker({
+                position: mapCenter,
+                map: map,
+                title: "彰化縣員林市至平街 50 巷 39 號",
+            });
+        }
+    </script>
+<h1>Google Maps API Demo</h1>
+<div id="map"></div>
+
+
+
 ## 日間照顧中心
 
 950008 台東市寧波街195號
@@ -27,16 +66,6 @@ FAX：（089）347-917
 服務事工：
 送餐服務、居家服務、老人日托服務（6）、兒童事工（弱勢家庭兒童課業輔導班（7）、行動書車）、青少年事工（希望種子）、社區照顧關懷據點服務（8）、愛加倍小舖、復康巴士（身心障礙者復康巴士、長照交通接送服務）、日間照顧服務及多元照顧服務（關山鎮、鹿野鄉、金峰鄉）、日間照顧服務（台東市）、文化健康站（10）、行動沐浴服務車、到宅乾燥車、長照2.0服務單位（A、B、C級）、預防及延緩失能服務、共餐服務、有福館（關山、卑南、池上、太麻里）、家庭照顧者支持性服務、失智社區服務據點（3）等。
 註：括弧裡的數字表示數量，例如：老人日托服務（6），意謂設有六個老人日托站，以上統計截至一一三年二月二十九日止。
-
-<div id="map"></div>
-    <!-- [END maps_add_map_div] -->
-    <!-- prettier-ignore -->
-    <script>
-        (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});
-</script>
-
-
 
 ## 緣起
 
