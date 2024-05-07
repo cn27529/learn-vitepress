@@ -2,6 +2,10 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  sitemap: {
+    hostname: "https://localhost:5173",
+    lastmodDateOnly: false,
+  },
   title: "彰化縣白玉功德會",
   description: "彰化縣白玉功德會",
   themeConfig: {
@@ -20,12 +24,12 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'about',
+        text: "about",
         items: [
-          { text: 'Introduction', link: '/introduction' },
-          { text: 'Getting Started', link: '/getting-started' },         
-        ]
-      }
+          { text: "Introduction", link: "/introduction" },
+          { text: "Getting Started", link: "/getting-started" },
+        ],
+      },
     ],
     // sidebar: {
     //   // 当用户位于 `guide` 目录时，会显示此侧边栏
