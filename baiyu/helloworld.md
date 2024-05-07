@@ -38,3 +38,9 @@ https://developers.google.com/maps/documentation/embed/embedding-map?hl=zh-tw
 AIzaSyCSOoxI3HwKgmOesf3_m48uxR6UgLD5WC4
 -->
 <div id="map"></div>
+
+<style lang="sass">
+.title
+  font-size: 20px
+  
+</style>

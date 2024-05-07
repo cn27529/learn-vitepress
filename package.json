@@ -9,6 +9,7 @@
     "preview": "vitepress preview baiyu"
   },
   "devDependencies": {
+    "sass": "^1.77.0",
     "vitepress": "^1.1.3"
   },
   "repository": {
