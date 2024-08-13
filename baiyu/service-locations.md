@@ -16,56 +16,33 @@ next: false
 aside: left
 ---
 
-# {{ $frontmatter.title }} 💙
+# {{ $frontmatter.title }}
 
-<script setup>
-import { ref } from 'vue'
+## 秀家人總部
+🙆‍♀️日間照顧中心、智善據點
 
-const count = ref(0)
-</script>
+🕗8am~5pm
 
-## Markdown Content
+🏘️510彰化縣員林市至平街50巷39號
 
-The count is: {{ count }}
+TEL：048378009
 
-<button @click="count++">Increment</button>
+https://www.facebook.com/show.lau.lan/
 
-<script client src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
-<style>
-    .map {
-        height: 400px;
-        width: 100%;
-    }
-</style>
-
-<script>
-        function initMap() {
-            const mapCenter = { lat: 23.956247, lng: 120.575201 }; // 這裡使用員林市至平街 50 巷 39 號的經緯度
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 15,
-                center: mapCenter,
-            });
-            const marker = new google.maps.Marker({
-                position: mapCenter,
-                map: map,
-                title: "彰化縣員林市至平街 50 巷 39 號",
-            });
-        }
-    </script>
-<h1>Google Maps API Demo</h1>
-<div id="map"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!3m2!1szh-TW!2stw!4v1723517893940!5m2!1szh-TW!2stw!6m8!1m7!1sSrrdHmxNct19_DQpcgllTw!2m2!1d23.96018184605543!2d120.5660898069877!3f315.8152251215537!4f15.474019958162046!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
-## 日間照顧中心
+## 秀家人左鄰咖啡館
 
-950008 台東市寧波街195號
-TEL：（089）960-200、（089）960-201
-FAX：（089）347-917
+🙆‍♀️「左鄰」融入社區打造「新家人關係」左鄰咖啡日間照顧中心
 
-服務事工：
-送餐服務、居家服務、老人日托服務（6）、兒童事工（弱勢家庭兒童課業輔導班（7）、行動書車）、青少年事工（希望種子）、社區照顧關懷據點服務（8）、愛加倍小舖、復康巴士（身心障礙者復康巴士、長照交通接送服務）、日間照顧服務及多元照顧服務（關山鎮、鹿野鄉、金峰鄉）、日間照顧服務（台東市）、文化健康站（10）、行動沐浴服務車、到宅乾燥車、長照2.0服務單位（A、B、C級）、預防及延緩失能服務、共餐服務、有福館（關山、卑南、池上、太麻里）、家庭照顧者支持性服務、失智社區服務據點（3）等。
-註：括弧裡的數字表示數量，例如：老人日托服務（6），意謂設有六個老人日托站，以上統計截至一一三年二月二十九日止。
+🕗8am~5pm
+
+🏘️510彰化縣員林市合作街243號
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723520070790!6m8!1m7!1sMq2BjtYy-QifnHENkvtRZQ!2m2!1d23.97094546682455!2d120.5790292127054!3f163.15388204888356!4f3.6687440937197806!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 ## 緣起
 
@@ -89,3 +66,38 @@ FAX：（089）347-917
 
 
 未來，**彰化縣白玉功德會**將持續積極擴展服務範圍和提升服務品質。除了現有的照護服務外，還將引入更多創新的服務模式，例如失能者交通車服務、身障者就業支持等，以滿足不同群體的需求。同時，**彰化縣白玉功德會**也將致力於與社區各界合作，建立更加緊密的社區照護網絡，實現在地老化安養、尊嚴向晚的目標。這一切的努力都是為了讓每一位長者都能享受到優質的老化生活，讓他們感受到被愛、被尊重和被珍惜的美好。
+
+<style>
+    .google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+}
+
+button{
+    border: 2px solid #111222;
+    padding: 8px;
+    background-color: #111222;
+    color: #ffffff;
+}
+
+
+</style>
+
+<script setup>
+import { ref } from 'vue'
+
+const count = ref(0)
+</script>
+## Markdown Content
+
+The count is: {{ count }}
+
+<button @click="count++">Increment</button>
