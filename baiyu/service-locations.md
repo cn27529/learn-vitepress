@@ -19,13 +19,9 @@ aside: left
 # {{ $frontmatter.title }}
 
 ## 秀家人總部
-🙆‍♀️日間照顧中心、智善據點
-
-🕗8am~5pm
-
+🙆‍♀️營運總部、日間照顧中心、智善失智據點
+<!-- 🕗8am~5pm -->
 🏘️510彰化縣員林市至平街50巷39號
-
-TEL：048378009
 
 https://www.facebook.com/show.lau.lan/
 
@@ -37,35 +33,28 @@ https://www.facebook.com/show.lau.lan/
 
 🙆‍♀️「左鄰」融入社區打造「新家人關係」左鄰咖啡日間照顧中心
 
-🕗8am~5pm
-
 🏘️510彰化縣員林市合作街243號
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1723520070790!6m8!1m7!1sMq2BjtYy-QifnHENkvtRZQ!2m2!1d23.97094546682455!2d120.5790292127054!3f163.15388204888356!4f3.6687440937197806!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-## 緣起
+## 竹仔秀家人失智據點
 
-![An image](/origin_of_life.png)
+🏘️512彰化縣永靖鄉中正路三段431巷15號(海豐路陸橋下)
 
+<!-- TEL：048351690 -->
 
-**彰化縣白玉功德會**的誕生源於一群對佛學有著深刻熱愛的年輕人，在民國99年齊心合力下成立。他們相信佛陀普世濟人的精神，深深地認識到社區的需求和長者的孤獨，因此決心展開這份神聖的使命，成立**彰化縣白玉功德會**。這個組織的核心價值是以愛和關懷為基石，為社區的長者們提供身心靈全方位的照護和支持。
-
-
-## 簡介
-
-![An image](/long_term_care_1080.png)
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723602097202!6m8!1m7!1s6Z_FaMi1NMOFfzaXRTfpoA!2m2!1d23.92569829880151!2d120.4976252950843!3f339.5220129634419!4f-10.38652431054598!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-隨著時光的流轉，**彰化縣白玉功德會**的發展逐漸走向成熟。在創會理事長於101年的北歐五國參訪中，他深受北歐長照模式的啟發，特別是那種尊重長者、注重社區關懷的文化，決定將這樣的價值觀融入到**彰化縣白玉功德會**的營運中。於是，在員林設立了「**秀家人**」日間照顧中心，這裡不僅是照顧的場所，更是一個溫馨的大家庭，長者們在這裡不僅得到照顧，更得到愛和關懷。
+## 田尾秀家人巷弄長照站
 
+🏘️522彰化縣田尾鄉中山路一段396號
 
-## 展望
+<!-- TEL：048832885 -->
 
-![An image](/long_term_care3_1080.png)
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723602860788!6m8!1m7!1sfz7pFJuz6f6ajShEVc7cng!2m2!1d23.88992793423267!2d120.5278042021606!3f5.966911227953744!4f0.25017329431943836!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
-未來，**彰化縣白玉功德會**將持續積極擴展服務範圍和提升服務品質。除了現有的照護服務外，還將引入更多創新的服務模式，例如失能者交通車服務、身障者就業支持等，以滿足不同群體的需求。同時，**彰化縣白玉功德會**也將致力於與社區各界合作，建立更加緊密的社區照護網絡，實現在地老化安養、尊嚴向晚的目標。這一切的努力都是為了讓每一位長者都能享受到優質的老化生活，讓他們感受到被愛、被尊重和被珍惜的美好。
 
 <style>
     .google-map {
