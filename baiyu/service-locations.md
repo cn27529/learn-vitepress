@@ -57,7 +57,8 @@ https://www.facebook.com/show.lau.lan/
 
 
 <style>
-    .google-map {
+
+.google-map {
      padding-bottom: 50%;
      position: relative;
 }
