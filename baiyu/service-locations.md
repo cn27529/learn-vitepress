@@ -16,7 +16,7 @@ next: false
 aside: false
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} 💙
 
 ## 秀家人總部
 🙆‍♀️營運總部、日間照顧中心、智善失智據點、派車中心
@@ -25,9 +25,14 @@ aside: false
 
 https://www.facebook.com/show.lau.lan/
 
-<iframe src="https://www.google.com/maps/embed?pb=!3m2!1szh-TW!2stw!4v1723517893940!5m2!1szh-TW!2stw!6m8!1m7!1sSrrdHmxNct19_DQpcgllTw!2m2!1d23.96018184605543!2d120.5660898069877!3f315.8152251215537!4f15.474019958162046!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723688255108!6m8!1m7!1sSrrdHmxNct19_DQpcgllTw!2m2!1d23.96018184605543!2d120.5660898069877!3f304.0691389062144!4f13.419248072524269!5f0.4000000000000002" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+## 秀家人新生據點
+🙆‍♀️多元課程、喘息服務、共餐服務、長照服務諮詢
+<!-- 🕗8am~5pm -->
+🏘️51048彰化縣員林市新生路235號
 
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723688332422!6m8!1m7!1s1rLh51MK45kpskSsYwgJOg!2m2!1d23.96166309888633!2d120.5686996954891!3f222.27814745657037!4f22.18475987409778!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## 秀家人左鄰咖啡館
 
@@ -36,6 +41,15 @@ https://www.facebook.com/show.lau.lan/
 🏘️510彰化縣員林市合作街243號
 
 <iframe src="https://www.google.com/maps/embed?pb=!4v1723520070790!6m8!1m7!1sMq2BjtYy-QifnHENkvtRZQ!2m2!1d23.97094546682455!2d120.5790292127054!3f163.15388204888356!4f3.6687440937197806!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+## 惜玉巷弄長照站（秀家人）
+
+🏘️510彰化縣員林市南潭路99巷4弄16號
+
+<!-- TEL：048351690 -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1723687943246!6m8!1m7!1sAw6CJBzyPNlA-mQBMjyYlQ!2m2!1d23.9623107792731!2d120.5581025246621!3f287.4427858571696!4f3.165052555215837!5f0.7820865974627469" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 ## 竹仔秀家人失智據點
