@@ -48,7 +48,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/cn27529/learn-vitepress" },
     ],
   },
 });
