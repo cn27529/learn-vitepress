@@ -19,7 +19,8 @@ export default defineConfig({
     nav: [
       // { text: 'Home', link: '/' },
       { text: "認識白玉", link: "/about" },
-      { text: "白玉服務據點", link: "/service-locations" },
+      { text: "白玉服務據點", link: "/locations" },
+      { text: "財報年報", link: "/finace" },
     ],
 
     sidebar: [
