@@ -22,7 +22,7 @@ export default defineConfig({
       { text: "白玉服務據點", link: "/locations" },
       { text: "捐款捐物", link: "/donate" },
       { text: "財報年報", link: "/finace" },
-      { text: "falselayout", link: "/falselayout" },
+      { text: "exampledata", link: "/exampledata" },
     ],
 
     sidebar: [
