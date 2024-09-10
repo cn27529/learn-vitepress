@@ -1,5 +1,7 @@
 ---
-layout: false
+layout: doc
+title: Example Data for js
+lastUpdated: true
 #navbar: false
 #sidebar: false
 #aside: false
