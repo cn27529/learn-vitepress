@@ -7,5 +7,9 @@ npm run docs:dev
 # ref vp theme
 https://github.com/chodocs/chodocs.git
 
-# ref site
-https://www.wheat.org.tw/Collapse.aspx?tid=118
+# ref sites
+https://www.wheat.org.tw/Default.aspx
+
+# icons
+https://gist.github.com/rxaviers/7360908
+
