@@ -23,6 +23,7 @@ export default defineConfig({
       { text: "財報年報", link: "/finace" },
       { text: "捐款捐物", link: "/donate" },
       { text: "exampledata", link: "/exampledata" },
+      { text: "team", link: "/team" },
     ],
 
     sidebar: [
