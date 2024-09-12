@@ -30,7 +30,7 @@ import { data } from './team.data.js'
   <VPTeamPageTitle>    
     <template #title>我們的團隊</template>
     <template #lead>
-      這是白玉功德會團隊成員，介紹白玉功德會的組織架構以及成員職掌介紹。
+      這是白玉功德會團隊成員，介紹白玉功德會的成員職掌。
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers size="medium" :members="data.members" />
@@ -48,4 +48,10 @@ import { data } from './team.data.js'
     margin-top: 0;
     margin-bottom: 5;
   }
+
+  .VPTeamMembersItem.medium .avatar[data-v-7735210d] {
+    width: 120px;
+    height: 120px;
+}
+
 </style>

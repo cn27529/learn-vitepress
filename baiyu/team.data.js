@@ -5,12 +5,12 @@ export default {
         hello: 'world',
         members: [
           {
-            avatar: 'https://www.github.com/yyx990803.png',
-            name: 'Evan You',
-            title: 'members',
+            avatar: './public/team1.jpg',
+            name: '邱暉智',
+            title: '理事長',
             links: [
-              { icon: 'github', link: 'https://github.com/yyx990803' },
-              { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+              { icon: 'facebook', link: 'https://www.facebook.com/sireso' },
+              { icon: 'instagram', link: 'https://www.facebook.com/sireso' },
             ]
           },
           {
