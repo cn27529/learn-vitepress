@@ -8,6 +8,7 @@ export default {
             avatar: './public/team1.jpg',
             name: '邱暉智',
             title: '理事長',
+            desc: 'balabala balabala balabala',
             links: [
               { icon: 'facebook', link: 'https://www.facebook.com/sireso' },
               { icon: 'instagram', link: 'https://www.facebook.com/sireso' },
