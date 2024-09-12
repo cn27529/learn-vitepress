@@ -16,40 +16,36 @@ next: false
 aside: false
 ---
 
+<script setup>
+
+import { VPTeamPage,  VPTeamPageTitle,  VPTeamMembers, VPTeamPageSection } from 'vitepress/theme'
+
+import { data } from './team.data.js'
+
+
+
+</script>
+
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <template #title>
-      Our Team
-    </template>
+  <VPTeamPageTitle>    
+    <template #title>我們的團隊</template>
     <template #lead>
-      The development of VitePress is guided by an international
-      team, some of whom have chosen to be featured below.
+      這是白玉功德會團隊成員，介紹白玉功德會的組織架構以及成員職掌介紹。
     </template>
   </VPTeamPageTitle>
-  <VPTeamMembers :members="members" />
+  <VPTeamMembers size="medium" :members="data.members" />
+  <VPTeamPageSection>
+    <template #title>Partners</template>
+    <template #lead>This is a subject for Partners</template>
+    <template #members>
+      <VPTeamMembers size="small" :members="data.partners" />
+    </template>
+  </VPTeamPageSection>
 </VPTeamPage>
 
-<script setup>
-import { VPTeamPage,  VPTeamPageTitle,  VPTeamMembers } from 'vitepress/theme'
-
-const members = [
-  {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/yyx990803.png',
-    name: 'Evan You',
-    title: 'Creator',
-    links: [
-      { icon: 'github', link: 'https://github.com/yyx990803' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
-    ]
-  },
-]
-</script>
+<style>
+  .VPTeamPage[data-v-5f7da39d] {
+    margin-top: 0;
+    margin-bottom: 5;
+  }
+</style>

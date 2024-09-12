@@ -21,9 +21,8 @@ export default defineConfig({
       { text: "認識白玉", link: "/about" },
       { text: "白玉服務據點", link: "/locations" },
       { text: "財報年報", link: "/finace" },
-      { text: "捐款捐物", link: "/donate" },
-      { text: "exampledata", link: "/exampledata" },
-      { text: "team", link: "/team" },
+      { text: "捐款捐物", link: "/donate" },      
+      { text: "我們的團隊", link: "/team" },
     ],
 
     sidebar: [
