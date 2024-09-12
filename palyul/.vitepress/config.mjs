@@ -14,7 +14,7 @@ export default defineConfig({
     siteTitle: "彰化縣白玉功德會",
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024 powered by 彰化縣白玉功德會",
+      copyright: "Copyright © 2024 powered by palyul 彰化縣白玉功德會",
     },
     nav: [
       // { text: 'Home', link: '/' },
