@@ -1,12 +1,12 @@
 {
   "name": "learn-vitepress",
   "version": "1.0.0",
-  "description": "Learn VitePress for static site",
+  "description": "Learn VitePress an static website for 白玉功德會",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev baiyu",
     "build": "vitepress build baiyu",
-    "preview": "vitepress preview baiyu",
+    "preview": "vitepress preview baiyu --port 8080",
     "start": "vitepress dev baiyu"
   },
   "dependencies": {

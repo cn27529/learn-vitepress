@@ -2,8 +2,18 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   sitemap: {
-    hostname: "https://localhost:5173",
+    hostname: "https://bai-yu.org",
+    transformItems: (items) => {
+      // 添加新项目或修改/筛选现有选项
+      items.push({
+        url: '/extra-page',
+        changefreq: 'monthly',
+        priority: 0.8
+      })
+      return items
+    },  
     lastmodDateOnly: false,
   },
   title: "彰化縣白玉功德會",
