@@ -13,3 +13,5 @@ https://www.wheat.org.tw/Default.aspx
 # icons
 https://gist.github.com/rxaviers/7360908
 
+# baiyu site URL
+https://bai-yu.org
