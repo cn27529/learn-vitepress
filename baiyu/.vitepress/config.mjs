@@ -14,7 +14,7 @@ export default defineConfig({
     siteTitle: "彰化縣白玉功德會",
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2024 powered by palyul 彰化縣白玉功德會",
+      copyright: "Copyright © 2024 powered by baiyu 彰化縣白玉功德會",
     },
     nav: [
       // { text: 'Home', link: '/' },
@@ -50,7 +50,7 @@ export default defineConfig({
     // },
 
     socialLinks: [
-      { icon: "facebook", link: "https://www.facebook.com/chcpalyul" },
+      { icon: "facebook", link: "https://www.facebook.com/chcbaiyu" },
       { icon: "github", link: "https://github.com/cn27529/learn-vitepress" },
     ],
   },
