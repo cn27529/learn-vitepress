@@ -20,7 +20,7 @@ aside: false
 
 import { VPTeamPage,  VPTeamPageTitle,  VPTeamMembers, VPTeamPageSection } from 'vitepress/theme'
 
-import { data } from './team.data.js'
+import { data } from './ourteam.data.js'
 
 
 
