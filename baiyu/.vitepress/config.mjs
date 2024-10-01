@@ -16,7 +16,7 @@ export default defineConfig({
     },  
     lastmodDateOnly: false,
   },
-  lang: 'en-US',
+  lang: 'zh-TW',
   title: "彰化縣白玉功德會",
   description: "彰化縣白玉功德會",
   themeConfig: {
