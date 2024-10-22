@@ -34,7 +34,7 @@ export default defineConfig({
       { text: "財報年報", link: "/finace" },
       { text: "捐款捐物", link: "/donate" },      
       { text: "我們的團隊", link: "/ourteam" },
-      { text: "社會救助", link: "/social-assistance" },
+      { text: "社會救助", link: "/social-support" },
     ],
 
     sidebar: [

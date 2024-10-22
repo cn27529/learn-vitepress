@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 111-120年白玉功德會【年報】
+title: 社會救助
 lastUpdated: true
 
 #是否在当前页的页脚显示编辑链接。
@@ -16,11 +16,15 @@ next: false
 aside: false
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} 📂
 
+::: tip
+白玉功德會進行的公益急難救助紀錄
+:::
 
-- [回列表📂](../social-assistance)
+#### [112贊助彰化高中-視障音樂會](./social-support-list/1121115贊助彰化高中-視障音樂會)❤️
 
-<style>
+#### [XXX](./social-support-list/finace107-116)📃
 
-</style>
+#### [XXX](./social-support-list/finace111-120)📃
+
