@@ -5,7 +5,7 @@ export default {
         hello: 'world',
         members: [
           {
-            avatar: '/public/team1.png',
+            avatar: '/team1.png',
             name: '邱暉智',
             title: '理事長',
             desc: 'balabala balabala balabala',
