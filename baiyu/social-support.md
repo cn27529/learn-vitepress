@@ -16,6 +16,8 @@ next: false
 aside: false
 ---
 
+
+
 # {{ $frontmatter.title }} 📂
 
 ::: tip
@@ -24,7 +26,7 @@ aside: false
 
 #### [112贊助彰化高中-視障音樂會](./social-support-list/1121115贊助彰化高中-視障音樂會)❤️
 
-#### [XXX](./social-support-list/finace107-116)📃
+
 
 #### [XXX](./social-support-list/finace111-120)📃
 
