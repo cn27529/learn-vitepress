@@ -18,5 +18,11 @@ hero:
     - theme: brand
       text: 認識白玉
       link: /about
+    - theme: brand
+      text: PDF Mobile Example
+      link: /pdf-mobile
+    - theme: alt
+      text: PDF Desktop Example
+      link: /pdf-desktop
 ---
 

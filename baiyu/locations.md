@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: 白玉服務據點
-lastUpdated: true
+#lastUpdated: true
 
 #是否在当前页的页脚显示编辑链接。
 editLink: false
@@ -88,7 +88,7 @@ https://www.facebook.com/show.lau.lan/
 button{
     border: 2px solid #111222;
     padding: 8px;
-    background-color: #111222;
+    background-color: #ffffff;
     color: #ffffff;
 }
 

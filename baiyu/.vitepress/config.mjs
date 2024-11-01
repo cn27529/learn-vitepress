@@ -66,4 +66,11 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/cn27529/learn-vitepress" },
     ],
   },
+  //https://github.com/vue-pdf-viewer/starter-vpv-vitepress
+  vite: {
+    ssr: {
+      noExternal: ['pdfjs-dist', '@vue-pdf-viewer/viewer']
+    }
+  }
+  //https://github.com/vuepress-theme-hope/vuepress-theme-hope
 });
