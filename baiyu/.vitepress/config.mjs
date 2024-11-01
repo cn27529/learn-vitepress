@@ -73,4 +73,5 @@ export default defineConfig({
     }
   }
   //https://github.com/vuepress-theme-hope/vuepress-theme-hope
+  //https://plugin-components.vuejs.press/
 });
